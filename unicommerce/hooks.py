@@ -23,6 +23,17 @@ add_to_apps_screen = [
 	}
 ]
 
+# Ecommerce Core dashboard
+# ------------------------
+ecommerce_dashboard_providers = [
+	{
+		"integration": "unicommerce",
+		"label": "Unicommerce",
+		"settings_doctype": "Unicommerce Settings",
+		"adapter": "unicommerce.unicommerce.dashboard.UnicommerceDashboardAdapter",
+	}
+]
+
 # Includes in <head>
 # ------------------
 
